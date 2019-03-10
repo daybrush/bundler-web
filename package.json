@@ -1,0 +1,31 @@
+{
+  "name": "bundler-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./server.sh",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daybrush/bundler-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daybrush/bundler-web/issues"
+  },
+  "homepage": "https://github.com/daybrush/bundler-web#readme",
+  "dependencies": {
+    "node-fetch": "^2.3.0",
+    "rollup": "^1.4.1",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "scenejs": "^1.0.0-beta12"
+  }
+}
